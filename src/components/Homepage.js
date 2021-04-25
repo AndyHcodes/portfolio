@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import "../App.css";
 import Button from "./Button";
-import "./HeroSection.css";
+import "../styles/Homepage.css";
 
-const HeroSection = () => {
+const Homepage = () => {
   return (
     <div className="hero-container">
       <h1>Andy Harrison</h1>
-
+      <h1>Full Stack Software Engineer</h1>
+      <hr />
       <p>HTML/CSS | Javascript | React | NodeJS | MySQL | MongoDB | Express</p>
       <div className="social-links">
         <a
@@ -25,7 +26,7 @@ const HeroSection = () => {
           <i className="fa fa-twitter-square" aria-hidden="true" />
         </a>
       </div>
-      <div className="hero-btns">
+      {/* <div className="hero-btns">
         <Button
           className="btns"
           buttonStyle="btn--primary"
@@ -33,9 +34,9 @@ const HeroSection = () => {
         >
           View CV
         </Button>
-      </div>
+      </div> */}
     </div>
   );
 };
 
-export default HeroSection;
+export default Homepage;

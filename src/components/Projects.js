@@ -1,11 +1,11 @@
 import React from "react";
-import "./Cards.css";
+import "../styles/Projects.css";
 import CardItem from "./CardItem";
 import weather from "../images/weather.jpg";
 import rocket from "../images/rocket.jpg";
 import lps from "../images/lps.jpg";
 
-const Cards = () => {
+const Projects = () => {
   return (
     <div className="cards">
       <h1>Projects</h1>
@@ -46,4 +46,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default Projects;

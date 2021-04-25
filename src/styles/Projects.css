@@ -1,14 +1,12 @@
-body {
-  background: url("/src/images/mskl.jpg") center center/cover no-repeat;
-}
-
 .cards {
   padding: 4rem;
   background: #fff;
+  font-family: "Raleway", sans-serif;
 }
 
 h1 {
   text-align: center;
+  font: bold;
 }
 
 .cards__container {
@@ -101,6 +99,12 @@ h1 {
   color: #252e48;
   font-size: 13px;
   line-height: 24px;
+}
+
+@media (max-width: 770px) {
+  .cards {
+    padding: 0rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {

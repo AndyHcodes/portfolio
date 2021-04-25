@@ -1,0 +1,70 @@
+.success-message {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.aboutme {
+  padding: 10rem;
+  background: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+.aboutme__container {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  max-width: 1120px;
+  width: 1000px;
+  height: 480px;
+  margin: 0 auto;
+}
+
+.aboutme__container p {
+  font-size: 22px;
+  font-weight: bolder;
+  padding-left: 40px;
+}
+
+.aboutme__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  .aboutme__container {
+    flex-flow: column;
+  }
+
+  .aboutme__container p {
+    font-size: 17px;
+    padding: 20px 0px 0px 0px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
+}
