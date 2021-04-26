@@ -16,21 +16,36 @@
   position: relative;
 }
 
-.contact-details {
-  padding-top: 30px;
+.contact-form {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
 }
 
-.contact-form-container ul {
-  padding-top: 40px;
-  font-size: 20px;
+.contact-form label {
+  padding-top: 20px;
 }
 
-.contact-form-container span {
-  padding: 15px;
+.contact-form input {
+  padding-bottom: 10px;
 }
 
-@media (max-width: 350px) {
-  .contact-form-container span {
-    padding: 10px;
-  }
+.contact-form textarea {
+  padding-bottom: 100px;
+}
+
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Raleway", sans-serif;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover {
+  background: #78788c;
+  color: #fff;
 }
