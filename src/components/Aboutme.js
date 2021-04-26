@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/Aboutme.css";
 import profilefour from "../images/profilefour.png";
 
@@ -13,7 +13,6 @@ const AboutMe = () => {
             alt="me"
             height="300px"
             width="300px"
-            borderRadius="50%"
           />
 
           <h1>About Me</h1>
