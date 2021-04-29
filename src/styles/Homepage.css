@@ -40,6 +40,9 @@
 }
 
 @media (max-width: 415px) {
+  .hero-container {
+    padding-top: 50px;
+  }
   h1 {
     font-size: 25px;
   }
