@@ -102,6 +102,9 @@ h1 {
 }
 
 @media (max-width: 770px) {
+  h1 {
+    padding-top: 10px;
+  }
   .cards {
     padding: 0rem;
   }
