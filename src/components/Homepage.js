@@ -25,15 +25,6 @@ const Homepage = () => {
           <i className="fa fa-twitter-square" aria-hidden="true" />
         </a>
       </div>
-      {/* <div className="hero-btns">
-        <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-        >
-          View CV
-        </Button>
-      </div> */}
     </div>
   );
 };

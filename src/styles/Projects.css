@@ -95,10 +95,50 @@ h1 {
   padding: 20px 30px 30px;
 }
 
+.cards__item__header {
+  color: #252e48;
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 24px;
+  padding-bottom: 5px;
+}
+
 .cards__item__text {
   color: #252e48;
   font-size: 13px;
   line-height: 24px;
+}
+
+.cards__item__buttons {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.cards__item__buttons__live {
+  padding: 0.35em 1.2em;
+  border: 0.1em solid black;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.cards__item__buttons__git {
+  padding: 0.35em 1.2em;
+  border: 0.1em solid black;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  transition: all 0.2s;
 }
 
 @media (max-width: 770px) {

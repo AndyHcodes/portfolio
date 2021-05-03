@@ -1,18 +1,29 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const CardItem = (props) => {
   return (
     <>
       <li className="cards__item">
-        <Link className="cards__item__link" to={props.path}>
+        <div className="cards__item__link" to={props.path}>
           <figure className="cards__item__pic-wrap" data-category={props.label}>
             <img className="cards__item__img" alt="Travel" src={props.src} />
           </figure>
           <div className="cards__item__info">
             <h5 className="cards__item__text">{props.text}</h5>
+            <div className="cards__item__buttons">
+              <a href={props.href}>
+                <button className="cards__item__buttons__live">
+                  {props.button}
+                </button>
+              </a>
+              <a href={props.href1}>
+                <button className="cards__item__buttons__git">
+                  {props.button1}
+                </button>
+              </a>
+            </div>
           </div>
-        </Link>
+        </div>
       </li>
     </>
   );
