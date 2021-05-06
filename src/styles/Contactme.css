@@ -1,14 +1,14 @@
 .contact-form-container {
   display: flex;
   flex-flow: column;
-  align-items: flex-start;
+  align-items: center;
   width: 340px;
   height: 440px;
   background: rgb(220, 227, 245);
   color: #5a5a6e;
   border-radius: 10px;
   box-shadow: 0 0 40px -15px #000;
-  margin: calc(50vh - 220px) auto;
+  margin: calc(40vh - 220px) auto;
   padding: 20px 30px;
   max-width: calc(100vw - 40px);
   box-sizing: border-box;
